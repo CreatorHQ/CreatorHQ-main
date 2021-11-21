@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -11,7 +12,9 @@ function Nav() {
             <div className="flex items-center justify-between w-full">
               <div className="flex items-center flex-shrink-0 flex-row ">
                 <img className="h-8 w-8" src={logo} alt="Workflow" />
-                <p className="text-2xl">CreatorHQ</p>
+                <Link to="/">
+                  <p className="text-2xl">CreatorHQ</p>
+                </Link>
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
