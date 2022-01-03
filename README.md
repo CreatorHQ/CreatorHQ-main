@@ -3,4 +3,4 @@
 Developed in Javascript and styled using Tailwind!
 
 # Demo
-![alt text](https://ibb.co/VVHy1FZ)
+![alt text](https://i.ibb.co/qB0GSHf/Screenshot-2022-01-03-at-7-33-19-PM.png)
